@@ -1,7 +1,7 @@
 
 //#include "dataset.h"
-#include <stddef.h>
-#include <stdio.h>
+//#include <stddef.h>
+//#include <stdio.h>
 
 // NxN matrices 
 void matadd(int N, int M, const int A[], const int B[], int C[])
@@ -11,7 +11,7 @@ void matadd(int N, int M, const int A[], const int B[], int C[])
   for (j = 0; j < M; j++) {
     for (i = 0; i < N; i++) {
       C[j*N + i] = A[j*N + i] + B[j*N + i];
-      putchar(C[j*N+i]+'0');
+      //putchar(C[j*N+i]+'0');
     }
   }
 }
