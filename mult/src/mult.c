@@ -7,8 +7,9 @@ void mult(int a, int b, int* c)
 {
   *c = a*b;
 }
-void main()
+int main()
 {
 	static int results_data;
 	mult(input1_data, input2_data, &results_data);
+  return 0;
 }
