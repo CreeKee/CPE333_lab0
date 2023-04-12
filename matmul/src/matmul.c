@@ -5,7 +5,7 @@
 #define ARRAY_SIZE DIM_SIZE*DIM_SIZE
 
 static int input1_data[ARRAY_SIZE] = {7, 20, 23, 36, 46, 78, 87, 96, 97};
-static int input2_data[ARRAY_SIZE] = {0, 18, 22, 23, 35, 39, 40, 42, 6}
+static int input2_data[ARRAY_SIZE] = {0, 18, 22, 23, 35, 39, 40, 42, 6};
 
 // NxN matrices 
 void matmul(int N,  const int A[], const int B[], int C[])
