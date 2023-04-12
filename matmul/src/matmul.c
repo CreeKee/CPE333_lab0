@@ -21,8 +21,9 @@ void matmul(int N,  const int A[], const int B[], int C[])
     }
   }
 }
-void main()
+int main()
 {
 	static int results_data[ARRAY_SIZE];
 	matmul(DIM_SIZE, input1_data, input2_data, results_data);
+  return 0;
 }
